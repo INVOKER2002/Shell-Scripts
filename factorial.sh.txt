@@ -1,0 +1,13 @@
+#!/bin/bash
+calculate_factorial(){
+num=$1
+fact=1
+for((i =1;i<=num;i++));do
+fact=$((fact*i))
+done
+echo $fact
+}
+echo "enter a number"
+read input_num
+fact_result=$(calculate_factorial $input_num)
+echo "the factorial is $fact_result"
