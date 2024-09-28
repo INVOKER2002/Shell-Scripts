@@ -1,0 +1,6 @@
+#!/bin/bash
+echo "enter value of n"
+read n
+for((i=0;i<$n;i++));do
+echo "shashank"
+done
