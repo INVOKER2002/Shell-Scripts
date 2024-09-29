@@ -1,0 +1,6 @@
+#!/bin/bash
+# A shell script that takes the users name and greets them
+echo "enter your name"
+read name
+echo "good evening boss $name"
+

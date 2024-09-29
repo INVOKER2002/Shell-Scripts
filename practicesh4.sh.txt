@@ -1,0 +1,6 @@
+#!/bin/bash
+#A shell script to print values of an array
+fruits=("apple" "banana" "pineapple" "dates" "cherries")
+for fruits in "${fruits[@]}";do
+echo "current fruit is $fruits"
+done

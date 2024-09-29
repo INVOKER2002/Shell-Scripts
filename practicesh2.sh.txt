@@ -1,0 +1,8 @@
+#!/bin/bash
+#A shell script that assigns a value to an integer and a string and prints it
+echo "enter integer value"
+read i
+echo "enter string value"
+read name
+echo "$i"
+echo "$name"

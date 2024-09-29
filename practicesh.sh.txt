@@ -1,0 +1,3 @@
+#!/bin/bash
+#this is a bash script that says "this is bash shell"
+echo "this is bash shell"
