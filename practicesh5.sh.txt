@@ -1,0 +1,7 @@
+#!/bin/bash
+#this is a shell script which greets the user , tells them the date and time
+echo "what is your name"
+read name
+echo "hello $name , how are you ! stay hydrated and motivated and keep working hard !!"
+date
+time
