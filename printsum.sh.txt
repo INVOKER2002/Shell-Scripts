@@ -1,0 +1,7 @@
+#!/bin/bash
+echo "enter 1st number"
+read n 
+echo "enter 2nd number"
+read m
+x = m + n
+echo "the sum is $x"
